@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday Kaleem Laghari! 🎉</title>
+    <link rel="stylesheet" href="birthday.css" />
+    <link rel="stylesheet" href="blur-effect.css" />
+  </head>
+  <body>
+    <!-- Confetti Container -->
+    <div id="confetti-container"></div>
+
+    <!-- Intro Overlay (surprise) -->
+    <div id="intro-overlay" class="intro-overlay">
+      <div class="intro-card">
+        <h2>Do you know what today is?</h2>
+        <p>Today a precious person came into this world.</p>
+        <button id="reveal-btn" class="reveal-btn">
+          Click here to celebrate 🎉
+        </button>
+      </div>
+    </div>
+
+    <!-- Birthday Music Toggle -->
+    <div class="music-toggle">
+      <button id="music-btn" class="music-btn">
+        <span class="icon">🎵</span> Play Music
+      </button>
+      <!-- Audio Element for playback -->
+      <audio id="birthday-audio" loop crossorigin="anonymous">
+        <source
+          id="audio-source"
+          src="Happy Birthday To You Ji - Funny Hindi Birthday Song (Part 1) - Funzoa Mimi Teddy, Krsna Solo.mp3"
+          type="audio/mpeg"
+        />
+      </audio>
+    </div>
+
+    <main class="container">
+      <!-- Hero Section -->
+      <section class="hero">
+        <h1 class="hero-title">Happy Birthday, Kaleem Sahab! 🎉</h1>
+        <p class="hero-subtitle">To My Best Friend ❤️</p>
+        <div class="balloons">
+          <div class="balloon balloon-1"></div>
+          <div class="balloon balloon-2"></div>
+          <div class="balloon balloon-3"></div>
+          <div class="balloon balloon-4"></div>
+          <div class="balloon balloon-5"></div>
+        </div>
+      </section>
+
+      <!-- Photos Section -->
+      <section class="photos">
+        <h2>Our Precious Memories</h2>
+        <div class="photo-gallery">
+          <div class="photo-card">
+            <div
+              class="photo-placeholder"
+              id="photo1"
+              style="
+                background-image: url('Birthdaypics/IMG_2287.jpeg');
+                background-size: cover;
+                background-position: center top;
+              "
+            ></div>
+            <p class="photo-label">You & Me</p>
+          </div>
+
+          <div class="photo-card">
+            <div
+              class="photo-placeholder"
+              id="photo2"
+              style="
+                background-image: url('Birthdaypics/IMG_2295.jpeg');
+                background-size: cover;
+                background-position: center top;
+              "
+            ></div>
+            <p class="photo-label">Fun Moments</p>
+          </div>
+
+          <div class="photo-card">
+            <div
+              class="photo-placeholder"
+              id="photo3"
+              style="
+                background-image: url('Birthdaypics/IMG_3529.jpg');
+                background-size: cover;
+                background-position: center top;
+              "
+            ></div>
+            <p class="photo-label">Best Memories</p>
+          </div>
+
+          <div class="photo-card">
+            <div
+              class="photo-placeholder"
+              id="photo4"
+              style="
+                background-image: url('Birthdaypics/IMG_7441.jpeg');
+                background-size: cover;
+                background-position: center top;
+              "
+            ></div>
+            <p class="photo-label">Sweet Moments</p>
+          </div>
+
+          <div class="photo-card">
+            <div
+              class="photo-placeholder"
+              id="photo5"
+              style="
+                background-image: url('Birthdaypics/IMG_7514.jpeg');
+                background-size: cover;
+                background-position: center top;
+              "
+            ></div>
+            <p class="photo-label">Smiles</p>
+          </div>
+
+          <div class="photo-card">
+            <div
+              class="photo-placeholder"
+              id="photo6"
+              style="
+                background-image: url('Birthdaypics/IMG_7603.jpeg');
+                background-size: cover;
+                background-position: center top;
+              "
+            ></div>
+            <p class="photo-label">Good Times</p>
+          </div>
+
+          <div class="photo-card">
+            <div
+              class="photo-placeholder"
+              id="photo5"
+              style="
+                background-image: url('Birthdaypics/IMG_7651.jpeg');
+                background-size: cover;
+                background-position: center top;
+              "
+            ></div>
+            <p class="photo-label">Memories</p>
+          </div>
+
+          <div class="photo-card">
+            <div
+              class="photo-placeholder"
+              id="photo5"
+              style="
+                background-image: url('Birthdaypics/IMG_7358.jpeg');
+                background-size: cover;
+                background-position: center top;
+              "
+            ></div>
+            <p class="photo-label">Memories</p>
+          </div>
+
+          <div class="photo-card">
+            <div
+              class="photo-placeholder"
+              id="photo5"
+              style="
+                background-image: url('Birthdaypics/IMG_2656.jpeg');
+                background-size: cover;
+                background-position: center top;
+              "
+            ></div>
+            <p class="photo-label">Memories</p>
+          </div>
+
+          <div class="photo-card">
+            <div
+              class="photo-placeholder"
+              id="photo5"
+              style="
+                background-image: url('Birthdaypics/IMG_8350.jpeg');
+                background-size: cover;
+                background-position: center top;
+              "
+            ></div>
+            <p class="photo-label">Memories</p>
+          </div>
+
+          <div class="photo-card">
+            <div
+              class="photo-placeholder"
+              id="photo5"
+              style="
+                background-image: url('Birthdaypics/IMG_8831.jpeg');
+                background-size: cover;
+                background-position: center top;
+              "
+            ></div>
+            <p class="photo-label">Memories</p>
+          </div>
+
+          <div class="photo-card">
+            <div
+              class="photo-placeholder"
+              id="photo5"
+              style="
+                background-image: url('Birthdaypics/IMG_9298.jpeg');
+                background-size: cover;
+                background-position: center top;
+              "
+            ></div>
+            <p class="photo-label">Memories</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== SURPRISE REVEAL SECTION ========== -->
+      <section class="surprise-section">
+        <h2>✨ Click Me for a Surprise! ✨</h2>
+        <div class="surprise-buttons">
+          <button class="surprise-btn surprise-btn-1" id="surprise-1">
+            <span class="surprise-icon">🎁</span>
+            <p>Click Here!</p>
+          </button>
+          <button class="surprise-btn surprise-btn-2" id="surprise-2">
+            <span class="surprise-icon">💝</span>
+            <p>And Here!</p>
+          </button>
+          <button class="surprise-btn surprise-btn-3" id="surprise-3">
+            <span class="surprise-icon">🎊</span>
+            <p>Don't Miss This!</p>
+          </button>
+        </div>
+
+        <!-- Surprise Content 1 -->
+        <div class="surprise-content surprise-content-1 hidden">
+          <div class="surprise-card">
+            <h3>🌟 Special Moments Gallery 🌟</h3>
+            <div class="expanded-gallery">
+              <div class="gallery-item-expanded">
+                <div
+                  class="photo-placeholder-expanded"
+                  id="exp-photo-1"
+                  style="
+                    background-image: url('Birthdaypics/IMG_2633.jpeg');
+                    background-size: cover;
+                    background-position: center top;
+                  "
+                ></div>
+              </div>
+              <div class="gallery-item-expanded">
+                <div
+                  class="photo-placeholder-expanded"
+                  id="exp-photo-2"
+                  style="
+                    background-image: url('Birthdaypics/IMG_2656.jpeg');
+                    background-size: cover;
+                    background-position: center top;
+                  "
+                ></div>
+              </div>
+              <div class="gallery-item-expanded">
+                <div
+                  class="photo-placeholder-expanded"
+                  id="exp-photo-3"
+                  style="
+                    background-image: url('Birthdaypics/IMG_3530.JPG');
+                    background-size: cover;
+                    background-position: center top;
+                  "
+                ></div>
+              </div>
+              <div class="gallery-item-expanded">
+                <div
+                  class="photo-placeholder-expanded"
+                  id="exp-photo-4"
+                  style="
+                    background-image: url('Birthdaypics/IMG_7358.jpeg');
+                    background-size: cover;
+                    background-position: center top;
+                  "
+                ></div>
+              </div>
+              <div class="gallery-item-expanded">
+                <div
+                  class="photo-placeholder-expanded"
+                  id="exp-photo-5"
+                  style="
+                    background-image: url('Birthdaypics/IMG_7856.jpeg');
+                    background-size: cover;
+                    background-position: center top;
+                  "
+                ></div>
+              </div>
+              <div class="gallery-item-expanded">
+                <div
+                  class="photo-placeholder-expanded"
+                  id="exp-photo-6"
+                  style="
+                    background-image: url('Birthdaypics/IMG_8144.jpeg');
+                    background-size: cover;
+                    background-position: center top;
+                  "
+                ></div>
+              </div>
+            </div>
+            <button
+              class="close-btn"
+              onclick="document.querySelector('.surprise-content.surprise-content-1').classList.add('hidden')"
+            >
+              ✕ Close
+            </button>
+          </div>
+        </div>
+
+        <!-- Surprise Content 2 -->
+        <div class="surprise-content surprise-content-2 hidden">
+          <div class="surprise-card">
+            <h3>🎬 Our Videos 🎬</h3>
+            <div class="videos-container">
+              <div class="video-item">
+                <video
+                  controls
+                  style="
+                    width: 100%;
+                    height: 300px;
+                    background: #000;
+                    border-radius: 10px;
+                  "
+                >
+                  <source
+                    src="Birthdaypics/2DD6639B-B564-4D82-9E48-5C61D7A6394C.MP4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+                <p class="video-label">Memory 1</p>
+              </div>
+
+              <div class="video-item">
+                <video
+                  controls
+                  style="
+                    width: 100%;
+                    height: 300px;
+                    background: #000;
+                    border-radius: 10px;
+                  "
+                >
+                  <source
+                    src="Birthdaypics/7F57A958-CC5B-49E6-A214-07A65B16216A.MP4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+                <p class="video-label">Memory 2</p>
+              </div>
+
+              <div class="video-item">
+                <video
+                  controls
+                  style="
+                    width: 100%;
+                    height: 300px;
+                    background: #000;
+                    border-radius: 10px;
+                  "
+                >
+                  <source
+                    src="Birthdaypics/D38A561D-CF75-40E3-B751-F7C221F712BC.MP4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+                <p class="video-label">Memory 3</p>
+              </div>
+
+              <div class="video-item">
+                <video
+                  controls
+                  style="
+                    width: 100%;
+                    height: 300px;
+                    background: #000;
+                    border-radius: 10px;
+                  "
+                >
+                  <source src="Birthdaypics/IMG_7926.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+                <p class="video-label">Memory 4</p>
+              </div>
+            </div>
+            <button
+              class="close-btn"
+              onclick="document.querySelector('.surprise-content.surprise-content-2').classList.add('hidden')"
+            >
+              ✕ Close
+            </button>
+          </div>
+        </div>
+
+        <!-- Surprise Content 3 -->
+        <div class="surprise-content surprise-content-3 hidden">
+          <div class="surprise-card animated-wishes">
+            <h3>🎉 Special Birthday Wishes 🎉</h3>
+            <div class="animated-wishes-list">
+              <div class="wish-animation wish-1">
+                <span class="wish-emoji-large">🌹</span>
+                <p>May your life be filled with beautiful moments!</p>
+              </div>
+              <div class="wish-animation wish-2">
+                <span class="wish-emoji-large">🎂</span>
+                <p>Every cake deserves a smile like yours!</p>
+              </div>
+              <div class="wish-animation wish-3">
+                <span class="wish-emoji-large">⭐</span>
+                <p>You're a star in everyone's life!</p>
+              </div>
+              <div class="wish-animation wish-4">
+                <span class="wish-emoji-large">💎</span>
+                <p>You shine brighter than diamonds!</p>
+              </div>
+              <div class="wish-animation wish-5">
+                <span class="wish-emoji-large">🌈</span>
+                <p>May your year be as colorful as a rainbow!</p>
+              </div>
+            </div>
+            <button
+              class="close-btn"
+              onclick="document.querySelector('.surprise-content.surprise-content-3').classList.add('hidden')"
+            >
+              ✕ Close
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="messages">
+        <h2>A Special Message For You</h2>
+        <div class="message-box">
+          <p class="message-text">
+            Happy Birthday to the most amazing best friend, Kaleem! 🎂
+            <br />
+            <br />
+            Thank you for all the laughter, the adventures, and the
+            unforgettable memories we've shared. You make every moment special
+            and every day brighter. Your friendship is a gift that I treasure
+            every single day.
+            <br />
+            <br />
+            Wishing you a day filled with joy, cake, laughter, and everything
+            that makes you smile. May this year bring you endless happiness,
+            success, and beautiful moments to cherish.
+            <br />
+            <br />
+            Here's to celebrating YOU today and every day! 🎉✨
+            <br />
+            <br />
+            Forever grateful for your friendship,
+            <br />
+            Your Best Friend 💕
+          </p>
+        </div>
+
+        <!-- Custom Message Input -->
+        <div class="custom-message">
+          <textarea
+            id="custom-msg"
+            placeholder="Add your own personal message here..."
+            maxlength="500"
+          ></textarea>
+          <div class="char-count"><span id="char-count">0</span> / 500</div>
+        </div>
+      </section>
+
+      <!-- Wishes Section -->
+      <section class="wishes">
+        <h2>Birthday Wishes</h2>
+        <div class="wishes-list">
+          <div class="wish-item">
+            <span class="wish-emoji">🎂</span>
+            <p>May your day be as sweet as cake!</p>
+          </div>
+          <div class="wish-item">
+            <span class="wish-emoji">🌟</span>
+            <p>You deserve all the stars in the sky!</p>
+          </div>
+          <div class="wish-item">
+            <span class="wish-emoji">🎊</span>
+            <p>Another year older, but forever amazing!</p>
+          </div>
+          <div class="wish-item">
+            <span class="wish-emoji">💝</span>
+            <p>Grateful to have you in my life!</p>
+          </div>
+          <div class="wish-item">
+            <span class="wish-emoji">🚀</span>
+            <p>Let's make this your best year yet!</p>
+          </div>
+          <div class="wish-item">
+            <span class="wish-emoji">✨</span>
+            <p>You light up every room you enter!</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Countdown or Cake Section -->
+      <section class="celebration">
+        <div class="cake">
+          <div class="candle">
+            <div class="flame"></div>
+          </div>
+          <div class="candle">
+            <div class="flame"></div>
+          </div>
+          <div class="candle">
+            <div class="flame"></div>
+          </div>
+          <div class="cake-body"></div>
+        </div>
+        <button class="blow-btn" id="blow-btn">
+          kaleem click to Blow the Candles! 🎂
+        </button>
+      </section>
+
+      <!-- Footer -->
+      <section class="footer">
+        <p>❤️❤️❤️❤️Made for You Kaleem Sahab ❤️❤️❤️❤️❤️</p>
+        <p>❤️❤️Happy Birthday From your Friend Abdullah Shah ❤️❤️</p>
+      </section>
+    </main>
+
+    <!-- YouTube IFrame API -->
+    <script src="birthday.js"></script>
+  </body>
+</html>

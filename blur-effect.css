@@ -1,0 +1,28 @@
+/* ========== BLUR EFFECT FOR INITIAL STATE ========== */
+main.blurred {
+  filter: blur(15px) saturate(0.8) brightness(0.75);
+  transition: filter 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  pointer-events: none;
+  user-select: none;
+}
+
+main.blurred .surprise-btn {
+  filter: blur(8px) brightness(0.7);
+  opacity: 0.5;
+  transform: translateY(8px) scale(0.98);
+  pointer-events: none;
+}
+
+main.blurred .photo-card,
+main.blurred .video-item,
+main.blurred .message-box {
+  filter: blur(6px) brightness(0.85);
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+main.blurred .section-title,
+main.blurred .balloon {
+  filter: blur(4px) brightness(0.9);
+  opacity: 0.7;
+}
